@@ -14,36 +14,36 @@ The data is related with direct marketing campaigns of a Portuguese banking inst
 
 Scripts Folder
 
-1. Final_Test_SVM_MLP 
+1. Final_Test_SVM_MLP <br>
 This is the main file to run which contains both models. Full training on train set then prediction
 on the unseen test set. Here most figures and charts are produced.
 
-2. MLP_Grid_Search
+2. MLP_Grid_Search <br>
 MLP grid search on training set.
 
-3. MLP_Bayes_Optimization_Kfold
+3. MLP_Bayes_Optimization_Kfold <br>
 MLP Bayes optinmzation on training set.
 
-4. kFoldLoss
+4. kFoldLoss <br>
 This file in needed for MLP_Bayes_Optimization_Kfold to run
 
-5. MLPModelFinal.mat
+5. MLPModelFinal.mat <br>
 MLP best model in mat format saved.
 
-6. SVM_Grid_Search
+6. SVM_Grid_Search <br>
 SVM grid search on training set.
 
-7. SVM_Bayes_Optimization_kfold
+7. SVM_Bayes_Optimization_kfold <br>
 SVM Bayes optinmzation on training set.
 
-8. SVMModelFinal.mat
+8. SVMModelFinal.mat <br>
 MLP best model in mat format saved.
 
 
 Data Folder:
 
-1. test
+1. test <br>
 test dataset
 
-2. trainSmote
+2. trainSmote <br>
 Training set after SMOTE is applied.
