@@ -1,18 +1,18 @@
 
 # A Comparative Study of Support Vector Machines and Multilayer Perceptron for Predicting Direct Marketing Response in Banking
 
-Language
+<b>Language</b> <br>
 MATLAB
 
-Introduction
+<b>Introduction</b> <br>
 This repository presents a comparative study between two algorithms to predict whether customers will sign to a long-term deposit with the bank with Support Vector Machine (SVM) and Multilayer Perception Neural Network (MLP). A grid search was conducted for both algorithms to optimize the hyperparameters. The best models were evaluated against a test set and critically evaluated by their F-Measure and ROC Area values (AUC).
 
 
-Dataset
+<b>Dataset</b> <br>
 The data is related with direct marketing campaigns of a Portuguese banking institution retrieved from the University of California Irvine (UCI) Machine Learning Repository. We choose the dataset containing (4521) instances with (17) attributes without missing values. The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be ('yes') or not ('no') subscribed.
 
 
-Scripts Folder
+<b>Scripts Folder </b> <br>
 
 1. Final_Test_SVM_MLP <br>
 This is the main file to run which contains both models. Full training on train set then prediction
@@ -40,7 +40,7 @@ SVM Bayes optinmzation on training set.
 MLP best model in mat format saved.
 
 
-Data Folder:
+<b>Data Folder: </b> <br>
 
 1. test <br>
 test dataset
